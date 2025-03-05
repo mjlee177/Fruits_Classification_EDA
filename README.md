@@ -21,6 +21,8 @@ Some images are of the full fruit, some are in bunches, some are only partially 
 ## EDA and plots
 The EDA portion first takes a look at the resolution of the existing images and plots frequencies for width and height so that we can get a quickly visual.  
 The next portion has code to confirm uploads were of the numbers (1940 train, 40 validation, 20 test for each category) and percentages expected (20% for each of the 5 categories).
+Please note that anaconda online would not allow for successful uploading of all images, so these plots do not match the provided data.
+I will try to switch to Colab or something else for the final project.
 
 ## Modeling
 The modeling portion applies the EfficiencyV2B0 model as a baseline.  The initial results (without hypertuning) were bad with a maximum accuracy of 0.2559 on training data and 0.2450 on validation data. 
